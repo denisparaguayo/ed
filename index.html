@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Landing Page con Efecto de Letras</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>karen</h1>
+			<p>que telefono te gusta 🙈:</p>
+
+			<form id="form">
+				<input
+					type="password"
+					id="inputField"
+					placeholder="Escribe aquí el código..." />
+				<button type="submit">Enviar</button>
+			</form>
+
+			<p id="message" class="message"></p>
+		</div>
+
+		<!-- Pop-up con letras estilo "hack" (invisible al principio) -->
+		<div id="popup" class="popup">
+			<div class="matrix" id="matrixEffect"></div>
+			<div class="centerText">karen Araceli hackeada ☠️💀☠️💀☠️💀☠️💀</div>
+			<!-- Agregado para centrar "HOLA" -->
+			<button id="closePopup">Cerrar</button>
+		</div>
+
+		<script src="js.js"></script>
+	</body>
+</html>
